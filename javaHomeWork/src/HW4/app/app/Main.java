@@ -10,11 +10,11 @@ public class Main {
         int[] days2 = {7};
         double [] sales1 = {12153,41};
         double [] sales2 = {10486,85};
-        // Розрахунок ціни
+        // расчет цен
         double smartperday = sales1[0] / days1[0];
         double laptopperday1 = sales2[0] / days2[0];
 
-        // Виведення результатів на консоль
+        // результаты
         System.out.println("Product No 1: " + productname1[0]);
         System.out.printf("Total sales for %d days is EUR %.2f\n", days1[0], sales1[0]);
         System.out.printf("Sales by day is EUR %.2f\n", smartperday);
